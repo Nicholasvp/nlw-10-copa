@@ -5,7 +5,7 @@
 }
 
 :root {
-  --card-title-broder-color: #746615;
+  --card-title-broder-color: #b7d410;
   --card-color-primary: #f7dd43;
   --card-bg-color: #1d1c19;
   --bg: url(./assets/bg-yellow.svg);
@@ -167,6 +167,16 @@ button{
   background-color: rgb(11, 31, 209);
 }
 
-button #azul {
+button:hover {
+  cursor: pointer;
+}
+#amarelo {
+background-color: rgb(189, 189, 14);
+}
+#azul {
 background-color: blue;
 }
+#verde {
+background-color: green;
+}
+
