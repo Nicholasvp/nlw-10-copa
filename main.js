@@ -28,3 +28,21 @@ document.querySelector("#cards").innerHTML =
     createGame('portugal', '16:00', 'uruguay')) +
     createCard('02/12', 'sexta', createGame('brazil', '16:00', 'cameroon'))
 
+ let estilo = document.querySelector('#estilo')
+
+ 
+ function blue() {
+    estilo.className = "blue"
+ }
+
+ function yellow() {
+   estilo.className = "yellow"
+ }
+ 
+ function green() {
+   estilo.className = "green"
+ }
+
+ document.querySelector("#azul").addEventListener("click", blue)
+ document.querySelector("#verde").addEventListener("click", green)
+ document.querySelector("#amarelo").addEventListener("click", yellow)
